@@ -1,0 +1,36 @@
+.form {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  margin: 32px auto 64px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.input {
+  width: 100%;
+  background-color: #1a1a1a;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  padding: 6px;
+}
+
+.button {
+  margin-top: 4px;
+}
+
+@media (prefers-color-scheme: light) {
+  .input {
+    background-color: #f4f4f4;
+  }
+}
+
+.error {
+  margin-bottom: 16px;
+  color: #ffb3b3;
+}
